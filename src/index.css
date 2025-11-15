@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+        @apply text-white;
+    }
+    h1 {
+        @apply text-3xl font-medium tracking-tight;
+    }
+    img {
+        @apply w-full h-full object-cover;
+    }
+    nav {
+        @apply w-full h-24 fixed z-50 top-0 left-0;
+    }
+}
+
+@layer components {
+    .nav-link {
+        @apply flex gap-4;
+    }
+    .hero {
+        @apply w-full h-screen relative;
+    }
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+    .flex-between {
+        @apply flex justify-between items-center;
+    }
+}
