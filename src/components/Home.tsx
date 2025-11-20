@@ -216,7 +216,7 @@ function FlowingGlassEffect() {
                         aioj#JIOC9
                     </a>
                 </div>
-                <div className="flex gap-8 text-white">
+                <div className="hidden lg:flex gap-8 text-white">
                     <a
                         href="#"
                         className="hover:text-gray-300 transition-colors"
@@ -240,18 +240,16 @@ function FlowingGlassEffect() {
 
             <section className="absolute bottom-20 left-0 right-0 z-10 px-12">
                 <div className="flex justify-between items-end">
-                    <h1 className="text-white text-6xl font-bold max-w-2xl">
+                    <h1 className="text-white hidden lg:block lg:text-6xl font-bold max-w-2xl">
                         Designed For the Space
                     </h1>
-                    <p className="text-white text-lg max-w-md">
-                        體驗流動的玻璃扭曲效果,隨著滑鼠移動產生視差與動態變形
-                    </p>
                 </div>
             </section>
 
-            <div className="absolute bottom-8 right-12 z-10 text-white text-sm space-y-2">
-                <p>移動滑鼠查看視差效果</p>
-                <p>自動流動的玻璃扭曲</p>
+            <div className=" absolute bottom-8 right-12 z-10 text-white text-md space-y-2">
+                <p>Dev by BD</p>
+                <p>Use Three.js Shader</p>
+                <p>自動流動的玻璃扭曲, 電腦可與鼠標交互</p>
             </div>
         </div>
     );
